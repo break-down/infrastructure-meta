@@ -1,0 +1,26 @@
+{
+    "name": "break-down/infrastructure-meta",
+    "description": "Entity meta implementation to inflate and deflate an entity to and from an array between objects and mysql query results.",
+    "license": "MIT",
+    "keywords": [
+        "infrastructure",
+        "php",
+        "entity-meta"
+    ],
+    "authors": [
+        {
+            "name": "Syed Haider Abbas",
+            "email": "haiderabbassimple@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "break-down/protocols": "dev-master",
+        "break-down/entity-state": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    }
+}
